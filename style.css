@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* container */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E5E4E;
+}
+
+/* card */
+.card {
+    width: 600px;
+    height: 400px;
+    background-color: #2E3D34;
+    border-radius: 10px;
+    position: relative;
+    transition: .3s;
+}
+
+.card:hover .img-card img {
+    transform: scale(1.1);
+}
+
+/* img card */
+.img-card {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -40px;
+    width: 300px;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+/* about student */
+.about-sdnt {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: fit-content;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;     */
+}
+
+.about-sdnt h1 {
+    color: #fff;
+}
+
+.about-sdnt h4 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.links a i {
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #00000044;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: .2s linear;
+}
+
+.links a i:hover {
+    outline: 1px solid white;
+}

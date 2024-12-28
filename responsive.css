@@ -1,0 +1,68 @@
+@media screen and (max-width:1366px) {
+
+    .card {
+        height: 500px;
+        width: 500px;
+    }
+
+    .img-card {
+        right: 50%;
+        transform: translateX(50%);
+        top: -10%;
+        height: 300px;
+    }
+
+    .about-sdnt {
+        top: 60%;
+        right: 50%;
+        transform: translateX(50%);
+        height: fit-content;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:765px) {
+
+    .card {
+        height: 300px;
+        width: 300px;
+    }
+
+    .img-card {
+        top: -75px;
+        left: 0;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        outline: 2px solid #fff;
+        outline: 5px solid #fff;
+    }
+
+    .about-sdnt {
+        top: 37%;
+    }
+
+    .about-sdnt h1 {
+        font-size: 1.4rem;
+    }
+
+    .about-sdnt h4 {
+        font-size: 0.9rem;
+    }
+
+    .links {
+        gap: 10px;
+    }
+
+}
